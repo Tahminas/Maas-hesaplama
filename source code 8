@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) throws Exception {
+        Employee employee1 = new Employee("Ali", 2000, 45, 1985);
+        Employee employee2 = new Employee("Veli", 3000, 35, 1995);
+
+        System.out.println(employee1);
+        System.out.println(employee2);
+    }
+}
